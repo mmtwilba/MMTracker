@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_icon_ovl_load" android:id="@id/itemLoadMmi" android:title="Load MMI file" />
+    <item android:icon="@drawable/menu_icon_mmi_create" android:id="@id/itemCreateList" android:title="Create List on Map" />
+    <item android:icon="@drawable/menu_icon_mmi_delete" android:id="@id/itemClearList" android:title="Clear List from Map" />
+</menu>

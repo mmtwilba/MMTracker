@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.meixi">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name=".MMTrackerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:name=".FileListActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsMainActivity"/>
+        <activity android:configChanges="orientation" android:name=".TrackDataActivity"/>
+        <activity android:configChanges="orientation" android:name=".TrackStyleActivity"/>
+        <activity android:configChanges="orientation" android:name=".MapListActivity"/>
+        <activity android:configChanges="orientation" android:name=".DirListActivity"/>
+        <activity android:configChanges="orientation" android:name=".RouteDataActivity"/>
+        <activity android:configChanges="orientation" android:name=".RouteStyleActivity"/>
+        <activity android:configChanges="orientation" android:name=".OverlayManagerActivity"/>
+        <activity android:configChanges="orientation" android:name=".WaypointManagerActivity"/>
+        <activity android:configChanges="orientation" android:name=".TrackManagerActivity"/>
+        <activity android:configChanges="orientation" android:name=".RouteManagerActivity"/>
+        <activity android:configChanges="orientation" android:name=".WaypointStyleActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsDirsActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsDisplayActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsColorsActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsGpsTracksActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsCompassActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsUnitsActivity"/>
+        <activity android:configChanges="orientation" android:name=".PrefsUserinterfaceActivity"/>
+        <activity android:configChanges="orientation" android:name=".MmiSearchActivity"/>
+        <activity android:configChanges="orientation" android:name=".CoordinateEntryActivity"/>
+        <activity android:configChanges="orientation" android:name=".TrackGraphActivity"/>
+        <service android:name=".TrackingService"> android:exported="false"</service>
+
+        <!-- uses-library name="com.sec.android.app.multiwindow" required="false" / -->
+        <uses-library android:required="false" android:name="com.sec.android.app.multiwindow"> </uses-library>
+
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip"/>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

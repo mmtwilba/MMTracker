@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Display Options">
+        <CheckBoxPreference android:title="Hide Android status bar" android:key="checkboxStatusBar" android:summary="Hide the Android status bar to use full screen for map display" android:defaultValue="false" />
+        <ListPreference android:entries="@array/listArrayScreenOrientation" android:title="Screen Orientation" android:key="listScreenOrientation" android:summary="Defines the orientation of the screen" android:defaultValue="1" android:entryValues="@array/listValuesScreenOrientation" />
+        <ListPreference android:entries="@array/listArrayMapRotation" android:title="Rotate map" android:key="listMapRotation" android:summary="Rotate map basing on compass direction or GPS" android:defaultValue="0" android:entryValues="@array/listValuesMapRotation" />
+        <CheckBoxPreference android:title="Show Info status bar" android:key="checkboxShowStatusline" android:summary="Show the info status bar. Displaying speed, height, icons etc.." android:defaultValue="true" />
+        <CheckBoxPreference android:title="Show GPS Position values" android:key="checkboxShowPositionWindow" android:summary="Show the current GPS position values. Display format is defined by the selected grid" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Show GPS Heading and Bearing" android:key="checkboxShowHeadingBearingWindow" android:summary="Show the current heading and bearing (when navigation active), basing on GPS data." android:defaultValue="false" />
+        <CheckBoxPreference android:title="Show Track info" android:key="checkboxShowTrackInfo" android:summary="Show length and duration of selected track in statusline. If no track selected, active track info is shown." android:defaultValue="false" />
+        <ListPreference android:entries="@array/listArrayNaviDisplay" android:title="Navigation Display" android:key="listNaviDisplay" android:summary="Defines the type and size of the navigation display. The navigation display is visible while navigating to a waypoint or route" android:defaultValue="3" android:entryValues="@array/listValuesNaviDisplay" />
+        <CheckBoxPreference android:title="Use ETA instead of ETE" android:key="checkboxShowETA" android:summary="Display ETA (Estimated time of arrival) instead of ETE (Estimated time enroute) when navigate" android:defaultValue="false" />
+        <ListPreference android:entries="@array/listArrayNightMode" android:title="Night mode" android:key="listNightMode" android:summary="Enable and configure night mode" android:defaultValue="0" android:entryValues="@array/listValuesNightMode" />
+        <CheckBoxPreference android:title="Screen stays on" android:key="checkboxScreenOn" android:summary="While 'MM Tracker' is running, the screen stays on (consumes more battery!)" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Show scale" android:key="checkboxShowScale" android:summary="Show scale of map on the bottom of display" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textSize="32.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Route Name" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="22.0sp" android:id="@id/text_route_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="n.a." />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="32.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="32.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Route Length" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="22.0sp" android:id="@id/text_route_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="n.a." />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="32.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="32.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Number of waypoints" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="22.0sp" android:id="@id/text_route_points" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" />
+    </TableRow>
+</TableLayout>

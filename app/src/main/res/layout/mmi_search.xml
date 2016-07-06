@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/buttonMmiView" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="View" android:layout_weight="3.0" />
+        <Button android:id="@id/buttonMmiCreateWaypoint" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Create WP" android:layout_weight="4.0" />
+        <Spinner android:id="@id/spinnerMmiCategories" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0" />
+    </LinearLayout>
+    <View android:id="@id/viewProgressBar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <EditText android:id="@id/editTextMmiSearch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:title="Search" />
+    <ListView android:id="@id/ListViewMmiData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fastScrollEnabled="true" />
+</LinearLayout>

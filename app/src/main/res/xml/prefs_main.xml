@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Directories" android:key="prefsDirectories" android:summary="" />
+    <Preference android:title="Display" android:key="prefsDisplay" android:summary="" />
+    <Preference android:title="Colors" android:key="prefsColors" android:summary="" />
+    <Preference android:title="Units and Grids" android:key="prefsUnits" android:summary="" />
+    <Preference android:title="GPS and Tracking" android:key="prefsGps" android:summary="" />
+    <Preference android:title="Compass" android:key="prefsCompass" android:summary="" />
+    <Preference android:title="User Interface" android:key="prefsUserinterface" android:summary="" />
+    <Preference android:title="About MM Tracker" android:key="customPref" android:summary="" />
+</PreferenceScreen>

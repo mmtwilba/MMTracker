@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="GPS">
+        <ListPreference android:entries="@array/listArrayGpsRateNew" android:title="GPS tracking data rate" android:key="listGpsRateNew" android:summary="Defines how frequent GPS position will be recordet to a track" android:defaultValue="1000" android:entryValues="@array/listValuesGpsRateNew" />
+        <ListPreference android:entries="@array/listArrayGpsDistance" android:title="GPS tracking min distance" android:key="listGpsMinDistance" android:summary="Defines the min distance which has to be moved, before a trackpoint will be recorded" android:defaultValue="2147483646" android:entryValues="@array/listValuesGpsDistance" />
+        <CheckBoxPreference android:title="Altitude geoid correction" android:key="checkboxUseGeoidCorrection" android:summary="Uses a geoid correction table to compensate altitude deviations" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Autostart GPS Lock" android:key="checkboxAutostartGpsLock" android:summary="GPS lock will be active when MM Tracker is started" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Keep GPS alive" android:key="checkboxGpsTrackingAlive" android:summary="GPS acquisition stays on, even in background or standby. When Tracking is active GPS will ke kept on, regardless this option." android:defaultValue="true" />
+        <CheckBoxPreference android:title="Network Triangulation" android:key="checkboxUseNetworkTriangulation" android:summary="Allows usage of WiFi/network trianglation for position determination, before GPS fix is available." android:defaultValue="true" />
+        <ListPreference android:entries="@array/listArrayArrowLength" android:title="Show speed vector" android:key="listArrowLength" android:summary="The speed vector shows where you will be in the defined time" android:defaultValue="30" android:entryValues="@array/listValuesArrowLength" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tracking">
+        <CheckBoxPreference android:title="Autostart Tracking" android:key="checkboxAutostartTracking" android:summary="Start automatically the tracking when MM Tracker is started" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Ask before stop tracking" android:key="checkboxAskBeforeStopTracking" android:summary="Ask for user confirmation before tracking can be stopped" android:defaultValue="false" />
+        <ListPreference android:entries="@array/listArrayTrackMinDist" android:title="Track load min distance" android:key="listTrackLoadMinDist" android:summary="When a GPX track is loaded all points below this distance are ignored. This speeds up display of tracks and saves RAM. It does not affect track recording!" android:defaultValue="0" android:entryValues="@array/listValuesTrackMinDist" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Waypoint Name" />
+        <EditText android:id="@id/editTextWpName" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Waypoint Coordinates" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/editTextWpCoordinates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" android:layout_weight="7.0" />
+            <Button android:enabled="true" android:id="@id/buttonCoordinateEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Edit" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Waypoint Color" />
+        <Spinner android:entries="@array/listArrayTrackColor" android:id="@id/spinnerWpColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Waypoint Opacity" />
+        <Spinner android:entries="@array/listArrayTrackOpacity" android:id="@id/spinnerWpOpacity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Waypoint Icon" />
+        <Spinner android:entries="@array/listArrayWpIcon" android:id="@id/spinnerWpIcon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show Waypoint Label" />
+            <CheckBox android:id="@id/CheckBoxWpShowLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lock Waypoint" />
+            <CheckBox android:id="@id/CheckBoxWpLock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Description" />
+        <EditText android:id="@id/editTextWpDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

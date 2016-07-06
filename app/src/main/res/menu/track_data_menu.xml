@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/itemTrackDataStatistics" android:title="Statistics" />
+    <item android:id="@id/itemTrackDataVelocity" android:title="Graph Velocity" />
+    <item android:id="@id/itemTrackDataAltitude" android:title="Graph Altitude" />
+</menu>

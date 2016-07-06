@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/buttonRouteHide" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Hide" android:layout_weight="1.0" />
+        <Button android:id="@id/buttonRouteDelete" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Del" android:layout_weight="1.0" />
+        <Button android:id="@id/buttonRouteView" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="View" android:layout_weight="1.0" />
+        <Button android:id="@id/buttonRouteProps" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Props" android:layout_weight="1.0" />
+        <Button android:id="@id/buttonRouteNavigate" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Navi" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/textRouteProps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <ListView android:id="@id/ListViewRoutes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fastScrollEnabled="true" />
+</LinearLayout>

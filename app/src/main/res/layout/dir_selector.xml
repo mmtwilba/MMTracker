@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:id="@id/textInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select directory" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/textPath" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <Button android:id="@id/buttonSelect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select" />
+    <ListView android:id="@id/ListViewDirs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/buttonTrackHide" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Hide" android:layout_weight="5.0" />
+        <Button android:id="@id/buttonTrackDelete" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Del" android:layout_weight="4.0" />
+        <Button android:id="@id/buttonTrackView" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="View" android:layout_weight="4.0" />
+        <Button android:id="@id/buttonTrackProps" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Props" android:layout_weight="5.0" />
+        <Button android:id="@id/buttonTrackData" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Data" android:layout_weight="4.0" />
+    </LinearLayout>
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/textTrackProps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <ListView android:id="@id/ListViewTracks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fastScrollEnabled="true" />
+</LinearLayout>

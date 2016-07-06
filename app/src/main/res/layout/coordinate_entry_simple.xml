@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Manual entry of coordinates" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+        <RadioGroup android:orientation="vertical" android:id="@id/QueGroup1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/radioButtonDeg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Deg Minute, Second" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textSize="20.0dip" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Lat " android:layout_weight="2.0" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextDegLat" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+                <TextView android:textSize="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextMinLat" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+                <TextView android:textSize="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="'" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextSecLat" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+                <TextView android:textSize="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="''" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextDirLat" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="N" android:singleLine="true" android:layout_weight="2.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textSize="20.0dip" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="Lon " android:layout_weight="2.0" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextDegLon" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+                <TextView android:textSize="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextMinLon" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+                <TextView android:textSize="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="'" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextSecLon" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+                <TextView android:textSize="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="''" />
+                <EditText android:textColor="#ffff0000" android:id="@id/editTextDirLon" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="E" android:singleLine="true" android:layout_weight="2.0" />
+            </LinearLayout>
+            <RadioButton android:id="@id/radioButtonOsgb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="OSGB" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="20.0dip" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+            <EditText android:enabled="false" android:textColor="#ffff0000" android:id="@id/editTextOsgb" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="8.0" />
+        </LinearLayout>
+        <Button android:enabled="false" android:id="@id/buttonCoordinateEntry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="OK" />
+    </LinearLayout>
+</ScrollView>

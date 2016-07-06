@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Route Properties">
+        <EditTextPreference android:title="Route Name" android:key="textRouteName" android:summary="Defines the displayed name of the route" />
+        <ListPreference android:entries="@array/listArrayTrackColor" android:title="Route Color" android:key="listRouteColor" android:summary="Defines the display color of the route" android:defaultValue="ffff0000" android:entryValues="@array/listValuesTrackColor" />
+        <ListPreference android:entries="@array/listArrayTrackWidth" android:title="Route Width" android:key="listRouteWidth" android:summary="Defines the line width of the route" android:defaultValue="4" android:entryValues="@array/listValuesTrackWidth" />
+        <ListPreference android:entries="@array/listArrayTrackOpacity" android:title="Route Opacity" android:key="listRouteOpacity" android:summary="Defines the opacity of the route" android:defaultValue="255" android:entryValues="@array/listValuesTrackOpacity" />
+        <CheckBoxPreference android:title="Route Locked" android:key="checkboxRouteLocked" android:summary="Lock the route to avoid position change of routepoints" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

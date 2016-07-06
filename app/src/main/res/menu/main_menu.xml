@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_icon_load" android:id="@id/itemLoadMap" android:title="Load Map" />
+    <item android:icon="@drawable/menu_icon_overlay_manager" android:id="@id/itemOverlay" android:title="Overlay" />
+    <item android:icon="@drawable/menu_icon_settings" android:id="@id/itemSettings" android:title="Settings" />
+    <item android:icon="@drawable/menu_icon_gps_unlocked" android:id="@id/itemLockGps" android:title="GPS lock" />
+    <item android:icon="@drawable/menu_icon_screen_unlocked" android:id="@id/itemLockScreen" android:title="Screen Lock" />
+    <item android:icon="@drawable/menu_icon_track_start" android:id="@id/itemStartTrack" android:title="Tracking" />
+</menu>

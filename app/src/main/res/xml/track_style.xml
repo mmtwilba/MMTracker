@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Track Properties">
+        <EditTextPreference android:title="Track Name" android:key="textTrackName" android:summary="Defines the displayed name of the track" />
+        <ListPreference android:entries="@array/listArrayTrackColor" android:title="Track Color" android:key="listTrackColor" android:summary="Defines the display color of the track" android:defaultValue="ffff0000" android:entryValues="@array/listValuesTrackColor" />
+        <ListPreference android:entries="@array/listArrayTrackWidth" android:title="Track Width" android:key="listTrackWidth" android:summary="Defines the line width of the track" android:defaultValue="4" android:entryValues="@array/listValuesTrackWidth" />
+        <ListPreference android:entries="@array/listArrayTrackOpacity" android:title="Track Opacity" android:key="listTrackOpacity" android:summary="Defines the opacity of the track" android:defaultValue="255" android:entryValues="@array/listValuesTrackOpacity" />
+    </PreferenceCategory>
+</PreferenceScreen>

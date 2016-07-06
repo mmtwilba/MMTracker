@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Colors">
+        <ListPreference android:entries="@array/listArrayColorRandom" android:title="New Track color" android:key="listTrackDefaultColor" android:summary="Color of new created tracks" android:defaultValue="0000FFFF" android:entryValues="@array/listValuesColorRandom" />
+        <ListPreference android:entries="@array/listArrayTrackWidth" android:title="New Track width" android:key="listTrackDefaultWidth" android:summary="Width of new created tracks" android:defaultValue="4" android:entryValues="@array/listValuesTrackWidth" />
+        <ListPreference android:entries="@array/listArrayTrackColor" android:title="Speed Vector" android:key="listSpeedVectorColor" android:summary="Color of Speed Vector" android:defaultValue="000000FF" android:entryValues="@array/listValuesTrackColor" />
+        <ListPreference android:entries="@array/listArrayTrackColor" android:title="Navigation Arrow outline" android:key="listNavArrowOutlineColor" android:summary="Color of outline of Navigation Arrow" android:defaultValue="0000FF00" android:entryValues="@array/listValuesTrackColor" />
+        <ListPreference android:entries="@array/listArrayTrackColor" android:title="Navigation Arrow filling" android:key="listNavArrowFillColor" android:summary="Color of filling of Navigation Arrow" android:defaultValue="00FFFFFF" android:entryValues="@array/listValuesTrackColor" />
+        <ListPreference android:entries="@array/listArrayColorNocolor" android:title="Network Inaccuracy Circle" android:key="listNetworkFillColor" android:summary="Color of filling of the network triangulation inaccuracy circle" android:defaultValue="000000FF" android:entryValues="@array/listValuesColorNocolor" />
+    </PreferenceCategory>
+</PreferenceScreen>

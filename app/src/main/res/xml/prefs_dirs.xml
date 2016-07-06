@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Directores">
+        <Preference android:title="Map Directory" android:key="customMapDir" android:summary="Root directory to search for maps and MMI files" />
+        <Preference android:title="Track Directory" android:key="customTrackDir" android:summary="Directory to store recorded tracks" />
+        <Preference android:title="Routes Directory" android:key="customRouteDir" android:summary="Directory to load routes from" />
+        <Preference android:title="Waypoints Directory" android:key="customWaypointDir" android:summary="Directory to load waypoints from" />
+        <ListPreference android:entries="@array/listArrayLoadTracks" android:title="Load Tracks on startup" android:key="listLoadTracksAtStartup" android:summary="Loads the defined number of Tracks on startup" android:defaultValue="6" android:entryValues="@array/listValuesLoadTracks" />
+        <CheckBoxPreference android:title="Load Routes on startup" android:key="checkboxLoadRtOnStartup" android:summary="Load all Routes in the defined Directory on startup." android:defaultValue="true" />
+        <CheckBoxPreference android:title="Load Waypoints on startup" android:key="checkboxLoadWpOnStartup" android:summary="Load all Waypoints in the defined Directory on startup." android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

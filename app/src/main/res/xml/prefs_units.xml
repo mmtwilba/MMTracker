@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Units and Grids">
+        <ListPreference android:entries="@array/listArrayUnitsDistances" android:title="Distance Units" android:key="listUnitsDistances" android:summary="Defines the displayed unit for distances" android:defaultValue="0" android:entryValues="@array/listValuesUnitsDistances" />
+        <ListPreference android:entries="@array/listArrayUnitsAngles" android:title="Angle Units" android:key="listUnitsAngles" android:summary="Defines the displayed unit for angles" android:defaultValue="0" android:entryValues="@array/listValuesUnitsAngles" />
+        <ListPreference android:entries="@array/listArrayGrid" android:title="Grid" android:key="listGrid" android:summary="Defines position format and grid" android:defaultValue="0" android:entryValues="@array/listValuesGrid" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArrayGpsRateNew">
+        <item>1 sec</item>
+        <item>2 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>30 sec</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>60 minutes</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="listValuesGpsRateNew">
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>9999999</item>
+    </string-array>
+    <string-array name="listArrayGpsDistance">
+        <item>0 metres (always)</item>
+        <item>1 metres</item>
+        <item>5 metres</item>
+        <item>10 metres</item>
+        <item>25 metres</item>
+        <item>50 metres</item>
+        <item>100 metres</item>
+        <item>250 metres</item>
+        <item>500 metres</item>
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="listValuesGpsDistance">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>2147483646</item>
+    </string-array>
+    <string-array name="listArrayUnitsDistances">
+        <item>Metric</item>
+        <item>Statute</item>
+        <item>Statute (height in metres)</item>
+        <item>Nautical</item>
+    </string-array>
+    <string-array name="listValuesUnitsDistances">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="listArrayUnitsAngles">
+        <item>Degrees</item>
+        <item>mils</item>
+    </string-array>
+    <string-array name="listValuesUnitsAngles">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="listArrayNaviDisplay">
+        <item>Small arrow only</item>
+        <item>Small arrow with text</item>
+        <item>Large arrow only</item>
+        <item>Large arrow with text</item>
+    </string-array>
+    <string-array name="listValuesNaviDisplay">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="listArrayTrackColor">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+        <item>Dark Red</item>
+        <item>Dark Green</item>
+        <item>Dark Blue</item>
+        <item>Dark Yellow</item>
+        <item>Dark Magenta</item>
+        <item>Dark Cyan</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="listValuesTrackColor">
+        <item>00FF0000</item>
+        <item>0000FF00</item>
+        <item>000000FF</item>
+        <item>00FFFF00</item>
+        <item>00FF00FF</item>
+        <item>0000FFFF</item>
+        <item>007F0000</item>
+        <item>00007F00</item>
+        <item>0000007F</item>
+        <item>007F7F00</item>
+        <item>007F007F</item>
+        <item>00007F7F</item>
+        <item>00000000</item>
+        <item>00FFFFFF</item>
+    </string-array>
+    <string-array name="listArrayColorRandom">
+        <item>Random Color</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+        <item>Dark Red</item>
+        <item>Dark Green</item>
+        <item>Dark Blue</item>
+        <item>Dark Yellow</item>
+        <item>Dark Magenta</item>
+        <item>Dark Cyan</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="listValuesColorRandom">
+        <item>12345678</item>
+        <item>00FF0000</item>
+        <item>0000FF00</item>
+        <item>000000FF</item>
+        <item>00FFFF00</item>
+        <item>00FF00FF</item>
+        <item>0000FFFF</item>
+        <item>007F0000</item>
+        <item>00007F00</item>
+        <item>0000007F</item>
+        <item>007F7F00</item>
+        <item>007F007F</item>
+        <item>00007F7F</item>
+        <item>00000000</item>
+        <item>00FFFFFF</item>
+    </string-array>
+    <string-array name="listArrayColorNocolor">
+        <item>No Color</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+        <item>Dark Red</item>
+        <item>Dark Green</item>
+        <item>Dark Blue</item>
+        <item>Dark Yellow</item>
+        <item>Dark Magenta</item>
+        <item>Dark Cyan</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="listValuesColorNocolor">
+        <item>11111111</item>
+        <item>00FF0000</item>
+        <item>0000FF00</item>
+        <item>000000FF</item>
+        <item>00FFFF00</item>
+        <item>00FF00FF</item>
+        <item>0000FFFF</item>
+        <item>007F0000</item>
+        <item>00007F00</item>
+        <item>0000007F</item>
+        <item>007F7F00</item>
+        <item>007F007F</item>
+        <item>00007F7F</item>
+        <item>00000000</item>
+        <item>00FFFFFF</item>
+    </string-array>
+    <string-array name="listArrayTrackWidth">
+        <item>1 px</item>
+        <item>2 px</item>
+        <item>3 px</item>
+        <item>4 px</item>
+        <item>5 px</item>
+        <item>6 px</item>
+        <item>7 px</item>
+        <item>8 px</item>
+        <item>9 px</item>
+        <item>10 px</item>
+        <item>15 px</item>
+        <item>20 px</item>
+    </string-array>
+    <string-array name="listValuesTrackWidth">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="listArrayTrackOpacity">
+        <item>100 %</item>
+        <item>80 %</item>
+        <item>60 %</item>
+        <item>40 %</item>
+        <item>20 %</item>
+        <item>10 %</item>
+    </string-array>
+    <string-array name="listValuesTrackOpacity">
+        <item>255</item>
+        <item>204</item>
+        <item>153</item>
+        <item>102</item>
+        <item>51</item>
+        <item>26</item>
+    </string-array>
+    <string-array name="listArrayTrackMinDist">
+        <item>0 metres</item>
+        <item>5 metres</item>
+        <item>10 metres</item>
+        <item>25 metres</item>
+        <item>50 metres</item>
+        <item>100 metres</item>
+        <item>250 metres</item>
+    </string-array>
+    <string-array name="listValuesTrackMinDist">
+        <item>0</item>
+        <item>0.005</item>
+        <item>0.01</item>
+        <item>0.025</item>
+        <item>0.05</item>
+        <item>0.1</item>
+        <item>0.25</item>
+    </string-array>
+    <string-array name="listArrayArrowLength">
+        <item>"0 (don't draw)"</item>
+        <item>1 second</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>infinite</item>
+    </string-array>
+    <string-array name="listValuesArrowLength">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>9999</item>
+    </string-array>
+    <string-array name="listArrayKeypadScrollDist">
+        <item>"0 (don't use)"</item>
+        <item>25 pixel</item>
+        <item>50 pixel</item>
+        <item>75 pixel</item>
+        <item>100 pixel</item>
+        <item>125 pixel</item>
+        <item>150 pixel</item>
+    </string-array>
+    <string-array name="listValuesKeypadScrollDist">
+        <item>0</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="listArrayNightMode">
+        <item>Night mode off</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="listValuesNightMode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="listArrayGrid">
+        <item>Lat Long (+/-)</item>
+        <item>Lat Long (N/S E/W)</item>
+        <item>Lat Long (Deg, Min)</item>
+        <item>Lat Long (Deg, Min, Sec)</item>
+        <item>British National Grid</item>
+    </string-array>
+    <string-array name="listValuesGrid">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="listArrayScreenOrientation">
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Sensor Based</item>
+    </string-array>
+    <string-array name="listValuesScreenOrientation">
+        <item>1</item>
+        <item>0</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="listArrayCompassForVector">
+        <item>Do not use Compass</item>
+        <item>Use Compass always</item>
+        <item>Use Compass only for small velocity</item>
+    </string-array>
+    <string-array name="listValuesCompassForVector">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="listArrayCompassType">
+        <item>Compass shows pointing direction</item>
+        <item>Compass shows always North</item>
+    </string-array>
+    <string-array name="listValuesCompassType">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="listArrayMapRotation">
+        <item>No map rotation</item>
+        <item>Rotate map basing on compass</item>
+        <item>Rotate map basing on GPS</item>
+    </string-array>
+    <string-array name="listValuesMapRotation">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="listArrayLoadTracks">
+        <item>Load no Tracks</item>
+        <item>Load all Tracks</item>
+        <item>Load last track</item>
+        <item>Load last 2 Tracks</item>
+        <item>Load last 5 Tracks</item>
+        <item>Load last 10 Tracks</item>
+        <item>Load last 25 Tracks</item>
+        <item>Load Tracks up to 1h old</item>
+        <item>Load Tracks up to 5h old</item>
+        <item>Load Tracks up to 12h old</item>
+        <item>Load Tracks up to 1day old</item>
+        <item>Load Tracks up to 2days old</item>
+        <item>Load Tracks up to 5days old</item>
+        <item>Load Tracks up to 1week old</item>
+    </string-array>
+    <string-array name="listValuesLoadTracks">
+        <item>0</item>
+        <item>999</item>
+        <item>2</item>
+        <item>3</item>
+        <item>6</item>
+        <item>11</item>
+        <item>26</item>
+        <item>1001</item>
+        <item>1005</item>
+        <item>1012</item>
+        <item>1024</item>
+        <item>1048</item>
+        <item>1120</item>
+        <item>1168</item>
+    </string-array>
+    <string-array name="listArrayWpIcon">
+        <item>Circle</item>
+        <item>Traditional Cache</item>
+        <item>Multi Cache</item>
+    </string-array>
+    <string-array name="listValuesWpIcon">
+        <item>Circle</item>
+        <item>Geocache</item>
+        <item>Multicache</item>
+    </string-array>
+</resources>

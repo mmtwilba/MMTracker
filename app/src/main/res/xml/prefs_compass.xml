@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Compass">
+        <CheckBoxPreference android:title="Display compass" android:key="checkboxShowCompass" android:summary="Display magnetic compass on map" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Display heading value" android:key="checkboxShowCompassHeading" android:summary="Display the heading in degrees inside the compass" android:defaultValue="true" />
+        <ListPreference android:entries="@array/listArrayCompassType" android:title="Compass Type" android:key="listCompassType" android:summary="Select compass type: Point in direction relative to map or point always to north" android:defaultValue="0" android:entryValues="@array/listValuesCompassType" />
+        <ListPreference android:entries="@array/listArrayCompassForVector" android:title="Use compass for speed vector" android:key="listUseCompassForVector" android:summary="Uses the magnetic compass to define the direction of the speed vector" android:defaultValue="0" android:entryValues="@array/listValuesCompassForVector" />
+        <CheckBoxPreference android:title="Geographic North" android:key="checkboxShowTrueNorth" android:summary="When this option is set, the magnetic compass direction will be compensated to show the geographic north" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

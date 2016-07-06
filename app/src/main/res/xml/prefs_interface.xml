@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Hardware Buttons">
+        <CheckBoxPreference android:title="Use volume buttons" android:key="checkboxUseVolButtons" android:summary="Use volume buttons to zoom the map in and out" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Use Search button (long)" android:key="checkboxUseSearchLongClick" android:summary="Use search button long click to center map to curent GPS position" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Use Search button" android:key="checkboxUseSearchClick" android:summary="Use search button to show data of selected track. If no track is selected, the currently active track data will be shown." android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Software Buttons">
+        <CheckBoxPreference android:title="Show position on click" android:key="checkboxShowPosition" android:summary="Show latitude and longitude of position, when clicked on screen" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Show zoom buttons" android:key="checkboxShowZoombuttons" android:summary="Show zoom buttons on screen" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Show mapscale buttons" android:key="checkboxShowMapscaleButtons" android:summary="Show butons to change between maps with different scale" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Adapt zoom to map scale" android:key="checkboxAdaptZoomLevel" android:summary="MM Tracker tries to adapt the zoom level when map scale was changed to keep map size equal." android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="D-Pad">
+        <CheckBoxPreference android:title="Use D-Pad center button" android:key="checkboxUseCreateWpClick" android:summary="Use D-Pad center button click to create waypoint at GPS position" android:defaultValue="false" />
+        <ListPreference android:entries="@array/listArrayKeypadScrollDist" android:title="Use D-Pad to scroll map" android:key="listKeypadScrollDist" android:summary="Enables and defines the usage of D-Pad to scroll map" android:defaultValue="0" android:entryValues="@array/listValuesKeypadScrollDist" />
+        <CheckBoxPreference android:title="Invert D-Pad direction" android:key="checkboxInvertDPad" android:summary="Invert scroll direction of D-Pad" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
